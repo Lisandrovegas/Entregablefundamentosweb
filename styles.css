@@ -1,0 +1,124 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #c2d963;
+}
+
+header {
+  background: url("https://redagricola.com/wp-content/uploads/2023/05/organicos1-792x591-c-default.jpg") center/cover no-repeat; 
+  color: rgb(17, 107, 149);
+  text-align: center;
+  padding: 60px 20px;
+  border-radius: 0 0 20px 20px;
+}
+
+header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+}
+
+.producto-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.producto-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 8px 20px rgba(0,0,0,0.2);
+}
+
+.producto-card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+footer {
+  background: #2E7D32;
+  color: white;
+  padding: 25px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* Carrito lateral */
+.carrito-lateral {
+  position: fixed;
+  top: 0;
+  right: -350px;
+  width: 350px;
+  height: 100%;
+  background: #fff;
+  box-shadow: -3px 0 10px rgba(0,0,0,0.3);
+  padding: 20px;
+  transition: right 0.3s ease-in-out;
+  z-index: 1050;
+  overflow-y: auto;
+}
+
+.carrito-lateral.activo {
+  right: 0;
+}
+
+.carrito-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.carrito-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+#contacto {
+  background: #8ddfe4;        /* Fondo suave */
+  padding: 30px 20px;         /* Espaciado interno más pequeño */
+  border-radius: 12px;        /* Bordes redondeados */
+  max-width: 450px;           /* Ancho máximo del bloque */
+  margin: 40px auto;          /* Centrado con espacio arriba y abajo */
+  box-shadow: 0px 4px 12px rgba(42, 37, 37, 0.1); /* Sombrado elegante */
+};
+
+
+#form-contacto {
+  max-width: 400px;   
+  margin: auto;      
+  padding: 20px; 
+  color: #231b1b;     
+}
+
+#contacto h2 {
+  font-size: 1.8rem; 
+  margin-bottom: 20px;
+  color: darkblue;
+}
+
+#form-contacto .form-control {
+  font-size: 0.9rem; 
+  padding: 8px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+#form-contacto button {
+  padding: 10px;
+  font-size: 1rem;
+  background-color: rgb(110, 217, 84);
+  color: rgb(36, 35, 48);
+}
+
+#form-contacto label {
+  color: #0D47A1;   /* 🔹 Azul oscuro */
+  font-weight: bold;
+  font-size: 0.95rem;
+}
+
+
